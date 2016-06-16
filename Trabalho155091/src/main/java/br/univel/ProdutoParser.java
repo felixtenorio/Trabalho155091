@@ -1,14 +1,16 @@
 package br.univel;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ProdutoParser {
 	
-	public List<CadastrodeProduto> getProduto(List<String> listaStr) {
+	public List<Produto> getProduto(List<String> listaStr) {
 
-		List<CadastrodeProduto> listaPrd = new ArrayList<>();
+		List<Produto> listaPrd = new ArrayList<>();
 
 		Pattern p = Pattern.compile("[0-9]+.*");
 
@@ -35,7 +37,7 @@ public class ProdutoParser {
 		String descricao = null;
 		BigDecimal preco = null;
 		
-		CadastrodeProduto p = new CadastrodeProduto(id, descricao, preco);	
+		Produto p = new Produto(id, descricao, preco);	
 		return p;
 
 	}

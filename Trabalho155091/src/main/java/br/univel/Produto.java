@@ -2,7 +2,7 @@ package br.univel;
 
 import java.math.BigDecimal;
 
-public class CadastrodeProduto {
+public class Produto {
 	
 	
 	private int id;
@@ -10,7 +10,7 @@ public class CadastrodeProduto {
 	private BigDecimal preco;
 	
 	
-	public CadastrodeProduto(int id, String descricao, BigDecimal preco) {
+	public Produto(int id, String descricao, BigDecimal preco) {
 		super();
 		this.id = id;
 		this.descricao = descricao;

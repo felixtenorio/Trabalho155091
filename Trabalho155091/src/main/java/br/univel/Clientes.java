@@ -1,6 +1,6 @@
 package br.univel;
 
-public class CadastrodeClientes {
+public class Clientes {
 
 	private int id;
 	private String nome;
@@ -14,7 +14,7 @@ public class CadastrodeClientes {
 	private int telefone;
 	private int celular;
 
-	public CadastrodeClientes(int id, String nome, String endereco, int numero, String complemento, String bairro,
+	public Clientes(int id, String nome, String endereco, int numero, String complemento, String bairro,
 			String cidade, String estado, int cep, int telefone, int celular) {
 		super();
 		this.id = id;
