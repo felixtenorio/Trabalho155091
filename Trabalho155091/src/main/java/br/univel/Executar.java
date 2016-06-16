@@ -16,7 +16,7 @@ public class Executar {
 
 		
 		public static void main(String[] args) throws IOException {
-			
+			 
 			Marshaller marshaller = null;
 			Clientes c = new Clientes();
 			c.setId(2);
