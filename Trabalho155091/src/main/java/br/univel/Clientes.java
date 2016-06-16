@@ -30,6 +30,10 @@ public class Clientes {
 		this.celular = celular;
 	}
 
+	public Clientes() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
